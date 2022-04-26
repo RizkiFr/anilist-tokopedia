@@ -21,7 +21,7 @@ const AnimeCard = ({ data, showDeleteButton }: Props) => {
   const params = useParams();
 
   const onDelete=()=>{
-    if(window.confirm(`Are you sure want to delete ${data.title.english??data.title.english}?`)){
+    if(window.confirm(`Are you sure want to delete ${data.title.english??data.title.native}?`)){
       if(data.collectionOf?.length===1){
         dispatch(removeFromCollection(data.id))
       }else{
