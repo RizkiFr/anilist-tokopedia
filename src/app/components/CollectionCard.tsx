@@ -27,9 +27,9 @@ const CollectionCard = ({ name, confirmDelete }: Props) => {
           alt={collectionOf[0].title.native}
           src={collectionOf[0].coverImage?.large}
           css={{
-            width: "20vw",
-            height: "20vw",
-            borderRadius: 16,
+            width: "10vh",
+            height: "10vh",
+            borderRadius: 8,
             objectFit: "cover",
             marginRight: 16,
           }}
@@ -39,9 +39,9 @@ const CollectionCard = ({ name, confirmDelete }: Props) => {
       return (
         <div
           css={{
-            width: "20vw",
-            height: "20vw",
-            borderRadius: 16,
+            width: "10vh",
+            height: "10vh",
+            borderRadius: 8,
             marginRight: 16,
             backgroundColor: AppColors.lightgrey,
             alignItems: "center",
