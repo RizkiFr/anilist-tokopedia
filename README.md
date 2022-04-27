@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Anime List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was deployed on this link [https://rizkifr.klikhub.id](https://rizkifr.klikhub.id).
 
 ## Available Scripts
 
